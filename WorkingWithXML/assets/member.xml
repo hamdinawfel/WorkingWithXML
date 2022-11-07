@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Member xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Hamdi Nawfel</Name>
+  <Email>Hamdi.Nawfel@tn.ey.com</Email>
+  <Age>31</Age>
+  <CreatedAt>2022-11-07T22:32:42.7327104+01:00</CreatedAt>
+  <IsPremium>true</IsPremium>
+</Member>
