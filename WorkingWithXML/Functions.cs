@@ -56,30 +56,31 @@ namespace WorkingWithXML
             var presedentData = XElement.Load(filePath);
 
             var presendents = presedentData.Descendants("Folder");
-            foreach(var presendent in presendents)
+            foreach (var presendent in presendents)
             {
                 Console.WriteLine($"{presendent.Element("StdName").Value}");
-                foreach(var item in presendent.Descendants("contact"))
+                foreach (var item in presendent.Descendants("contact"))
                 {
                     Console.WriteLine($"Email:  {item.Element("email").Value}");
                 }
                 var election = presendent.Descendants("Election").Descendants("Year");
                 foreach (var item in election)
                 {
-                    Console.WriteLine($"{    item.Attribute("Title").Value}   :  {item.Value}");
+                    Console.WriteLine($"{item.Attribute("Title").Value}   :  {item.Value}");
                 }
             }
 
         }
-        
+
         public void SerializeObjectToXmlString()
         {
-            var member = new Member{
+            var member = new Member
+            {
                 Name = "Hamdi Nawfel",
                 Email = "Hamdi.Nawfel@tn.ey.com",
                 Age = 31,
                 CreatedAt = DateTime.Now,
-                IsPremium = true,   
+                IsPremium = true,
             };
 
             var xmlSerilizer = new XmlSerializer(typeof(Member));
@@ -112,6 +113,37 @@ namespace WorkingWithXML
             };
         }
 
+        public void SerializeListObjectToXmlFile()
+        {
+            var members = new List<Member>
+                {
+                    new Member
+                    {
+                        Name = "Hamdi Nawfel",
+                        Email = "Hamdi.Nawfel@tn.ey.com",
+                        Age = 31,
+                        CreatedAt = DateTime.Now,
+                        IsPremium = true,
+                    },
+                    new Member
+                    {
+                        Name = "Jhon Doe",
+                        Email = "jhon.Doe@gmailcom",
+                        Age = 31,
+                        CreatedAt = DateTime.Now,
+                        IsPremium = false,
+                    },
+                };
 
+            var xmlSerializer = new XmlSerializer(typeof(List<Member>));
+            var filePath = @"C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\assets\members.xml";
+            using (var writer = new StreamWriter(filePath))
+            {
+                xmlSerializer.Serialize(writer, members);
+                Console.WriteLine("Serialization Completed");
+            };
+        }
     }
 }
+
+

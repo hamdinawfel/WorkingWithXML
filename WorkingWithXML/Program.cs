@@ -11,13 +11,19 @@ namespace WorkingWithXML
         {
             
             var functions = new Functions();
+
+            // FUNDAMANTALS
+
             //functions.ReadXml();
             //functions.ReadXmlWithXDocument();
             //functions.GetSingleElement();
             // functions.QueryXml();
 
+            //SERIALIZATION
+
             //functions.SerializeObjectToXmlString();
-            functions.SerializeObjectToXmlFile();
+            //functions.SerializeObjectToXmlFile();
+            functions.SerializeListObjectToXmlFile();
         }
 
 

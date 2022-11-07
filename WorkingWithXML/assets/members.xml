@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Member>
+    <Name>Hamdi Nawfel</Name>
+    <Email>Hamdi.Nawfel@tn.ey.com</Email>
+    <Age>31</Age>
+    <CreatedAt>2022-11-07T23:11:40.0468562+01:00</CreatedAt>
+    <IsPremium>true</IsPremium>
+  </Member>
+  <Member>
+    <Name>Jhon Doe</Name>
+    <Email>jhon.Doe@gmailcom</Email>
+    <Age>31</Age>
+    <CreatedAt>2022-11-07T23:11:40.0499781+01:00</CreatedAt>
+    <IsPremium>false</IsPremium>
+  </Member>
+</ArrayOfMember>
