@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<MemberDetails xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" PremiumMember="true">
-  <MemberName>Hamdi Nawfel</MemberName>
-  <MemberEmailAddress>Hamdi.Nawfel@tn.ey.com</MemberEmailAddress>
+<Member xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Hamdi Nawfel</Name>
+  <Email>Hamdi.Nawfel@tn.ey.com</Email>
   <Age>31</Age>
-</MemberDetails>
+  <CreatedAt>2022-11-07T23:47:28.56874+01:00</CreatedAt>
+  <IsPremium>true</IsPremium>
+</Member>

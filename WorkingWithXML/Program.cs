@@ -23,9 +23,9 @@ namespace WorkingWithXML
 
             //functions.SerializeObjectToXmlString();
             //functions.SerializeObjectToXmlFile();
-            functions.SerializeListObjectToXmlFile();
+            //functions.SerializeListObjectToXmlFile();
+            //functions.DeserialzeXmlFileToObject();
+            functions.DeserialzeXmlFileToObject();
         }
-
-
     }
 }

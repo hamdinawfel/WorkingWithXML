@@ -143,6 +143,33 @@ namespace WorkingWithXML
                 Console.WriteLine("Serialization Completed");
             };
         }
+
+        public void DeserialzeXmlFileToList()
+        {
+            var xmlSerializer = new XmlSerializer(typeof(List<Member>));
+            var filePath = @"C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\assets\members.xml";
+
+            using(var reader = new StreamReader(filePath))
+            {
+                var members = (List<Member>)xmlSerializer.Deserialize(reader);
+                foreach(var member in members)
+                {
+                    Console.WriteLine($"{member.Name}  {member.Email}  {member.Age}  {member.CreatedAt} Premiem : {member.IsPremium}");
+                }
+            }
+        }
+
+        public void DeserialzeXmlFileToObject()
+        {
+            var xmlSerializer = new XmlSerializer(typeof(Member));
+            var filePath = @"C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\assets\member.xml";
+
+            using (var reader = new StreamReader(filePath))
+            {
+                var member = (Member)xmlSerializer.Deserialize(reader);
+                Console.WriteLine($"{member.Name}  {member.Email}  {member.Age}  {member.CreatedAt} Premiem : {member.IsPremium}");
+            }
+        }
     }
 }
 
