@@ -1,0 +1,16 @@
+C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\bin\Debug\netcoreapp3.1\WorkingWithXML.exe
+C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\bin\Debug\netcoreapp3.1\WorkingWithXML.deps.json
+C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\bin\Debug\netcoreapp3.1\WorkingWithXML.runtimeconfig.json
+C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\bin\Debug\netcoreapp3.1\WorkingWithXML.runtimeconfig.dev.json
+C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\bin\Debug\netcoreapp3.1\WorkingWithXML.dll
+C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\bin\Debug\netcoreapp3.1\WorkingWithXML.pdb
+C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\obj\Debug\netcoreapp3.1\WorkingWithXML.csproj.AssemblyReference.cache
+C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\obj\Debug\netcoreapp3.1\WorkingWithXML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\obj\Debug\netcoreapp3.1\WorkingWithXML.AssemblyInfoInputs.cache
+C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\obj\Debug\netcoreapp3.1\WorkingWithXML.AssemblyInfo.cs
+C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\obj\Debug\netcoreapp3.1\WorkingWithXML.csproj.CoreCompileInputs.cache
+C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\obj\Debug\netcoreapp3.1\WorkingWithXML.dll
+C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\obj\Debug\netcoreapp3.1\WorkingWithXML.pdb
+C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\obj\Debug\netcoreapp3.1\WorkingWithXML.genruntimeconfig.cache
+C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\bin\Debug\netcoreapp3.1\assets\example1.xml
+C:\Users\AX412BC\workspace\WorkingWithXML\WorkingWithXML\bin\Debug\netcoreapp3.1\assets\Presedent.xml

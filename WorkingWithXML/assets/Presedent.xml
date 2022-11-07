@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+
+<Folders>
+	<Folder>
+		<StdName>Joe Biden</StdName>
+		<Specialization>ICSE</Specialization>
+		<Position>Senior</Position>
+		<contact>
+			<email>Joe_Biden@gmail.com</email>
+			<T1>390</T1>
+			<phone>+12312322334</phone>
+		</contact>
+		<Election>
+			<Year Title="first periode">2020</Year>
+		</Election>
+	</Folder>
+	<Folder>
+		<StdName>Donald Trump</StdName>
+		<Specialization>BQE</Specialization>
+		<contact>
+			<email>Donald_Trump@gmail.com</email>
+			<T1>499</T1>
+			<phone>+12312322334</phone>
+		</contact>
+		<Election>
+			<Year Title="first periode">2016</Year>
+		</Election>
+	</Folder>
+	<Folder>
+		<StdName>Barack Obama</StdName>
+		<Specialization>CBSE</Specialization>
+		<Position>Junior</Position>
+		<contact>
+			<email>Barack_Obama@gmail.com</email>
+			<T1>129</T1>
+			<phone>+12312322334</phone>
+		</contact>
+		<Election>
+			<Year Title="first periode">2008</Year>
+			<Year Title="second periode">2012</Year>
+		</Election>
+	</Folder>
+</Folders>
