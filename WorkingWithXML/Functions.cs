@@ -170,6 +170,8 @@ namespace WorkingWithXML
                 Console.WriteLine($"{member.Name}  {member.Email}  {member.Age}  {member.CreatedAt} Premiem : {member.IsPremium}");
             }
         }
+        
+        // add upload file
     }
 }
 
